@@ -30,21 +30,19 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Text>Hello World! (Web)</Text>
-        </ScrollView>
+          <View style={styles.view}>
+            <Text>Hello World! (Web2)</Text>
+          </View>
       </SafeAreaView>
     </>
   );
 };
 
 const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: 'red', //'#DAE1E7'
+  view: {
+    backgroundColor: 'lightgray', //'#DAE1E7'
+      height: 500,
   },
-
 });
 
 export default App;
